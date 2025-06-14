@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desi Formals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+      }
+      body, html {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+
+    <!-- Hero Section -->
+<!-- index.html inside public -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('./images/train.jfif');">
+    <div class="bg-black bg-opacity-50 h-full w-full flex items-center justify-center text-center px-4">
+        <div>
+        <h1 class="text-white text-5xl md:text-6xl font-bold">Desi Formals and Co.</h1>
+        <p class="text-white mt-4 text-lg md:text-xl">All the trending pieces</p>
+        <button class="mt-6 px-6 py-3 bg-purple-300 text-black uppercase tracking-wide hover:bg-purple-200 transition">Shop Now</button>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">Featured Collection</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-violet-200 shadow-lg rounded-xl overflow-hidden flex flex-col h-full">
+            <div class="aspect-square overflow-hidden"> 
+                    <img 
+                        src="./images/purple2.jpg" 
+                        alt="purple saari" 
+                        class="w-full h-full object-cover"
+                    >
+                </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Pastel Purple Saree</h3>
+                <p class="text-sm text-gray-500">Shiny Purple Saree ideal with silver jewelery.</p>
+            </div>
+        </div>
+            <div class="bg-red-200 shadow-lg rounded-xl overflow-hidden flex flex-col h-full">
+                <div class="aspect-square overflow-hidden">
+                    <img 
+                    src="./images/peach.jfif" 
+                    alt="saari" 
+                    class="w-full h-full object-cover"
+                    >
+                </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Banarisi Red and White Saree</h3>
+                <p class="text-sm text-gray-500">Embrace your ancestor's fashion! and look cute while doing it.</p>
+            </div>
+        </div>
+            <div class="bg-blue-200 shadow-lg rounded-xl overflow-hidden flex flex-col h-full">
+                <div class="aspect-square overflow-hidden">
+                    <img 
+                    src="./images/whiteblue.jfif" 
+                    alt="saari" 
+                    class="w-full h-auto object-cover"
+                >
+                </div>
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Elegant White Shalwar Qameez</h3>
+                <p class="text-sm text-gray-500">Your next favourite fit for Dawaats.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-purple-100 px-6 md:px-20" >
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">About Desi Formals and Co.</h2>
+        <p class="text-gray-700 text-lg">
+          Élan is a celebration of confidence, minimalism, and feminine strength. Our carefully crafted products enhance your natural beauty — because you're already perfect.
+        </p>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 px-6 md:px-20 bg-gray-100 text-center">
+      <h2 class="text-2xl font-bold mb-4">Get Beauty Tips & Exclusive Offers</h2>
+      <form class="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+        <input type="email" placeholder="Your Email" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-300" />
+        <button class="px-6 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-400 transition">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-10 text-center">
+      <h3 class="text-xl font-semibold mb-3">Desi Formals and Co.</h3>
+      <p class="text-sm mb-4">© 2025 Desi Formals and Co. All rights reserved.</p>
+      <div class="flex justify-center gap-4 text-xl">
+        <button class="hover:bg-purple-400">
+            <a href="#"><i class="fab fa-instagram" ></i> Instagram</a>
+        </button>
+        <button class="hover:bg-purple-400">
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        </button>
+      </div>
+    </footer>
+
+  </body>
+</html>
